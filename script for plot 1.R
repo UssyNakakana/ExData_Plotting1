@@ -1,0 +1,1 @@
+hist(electric.consumption$Global_active_power, col="red")
