@@ -1,0 +1,6 @@
+> datetime <- strptime(paste(electric.consumption$Date, electric.consumption$Time, sep=" "), "%d/%m/%Y %H:%M:%S") 
+> globalActivePower <- as.numeric(electric.consumption$Global_active_power)
+> globalReactivePower <- as.numeric(electric.consumption$Global_reactive_power)
+> voltage <- as.numeric(electric.consumption$Voltage)
+> subMetering1 <- as.numeric(electric.consumption$Sub_metering_1)
+> subMetering2 <- as.numeric(electric.consumption$Sub_metering_2)
